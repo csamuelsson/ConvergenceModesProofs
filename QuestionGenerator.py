@@ -1,8 +1,8 @@
 from random import randint
 
 class ConvergenceMode:
-    # One mode of convergence can have exactly one implication, i.e. another mode of convergence being true if the current
-    # mode of convergence (object) is true.
+    # One mode of convergence can have exactly one implication, i.e. another mode of convergence being true
+    # if the current mode of convergence (object) is true.
 
     def __init__(self, cleanText, childConvergence = None):
         self.childConvergence = childConvergence
@@ -28,7 +28,8 @@ def QuestionParser():
     randomConvergenceMode = convergenceArray[randomNumber]
     implicationConvergence = randomConvergenceMode.getChildConvergence().getCleanText()
 
-    print("Show that if a sequence of random variables converges %s, then the sequence converges %s" % (randomConvergenceMode.getCleanText(), implicationConvergence))
+    print("Show that if a sequence of random variables converges %s, then the sequence converges %s" 
+        % (randomConvergenceMode.getCleanText(), implicationConvergence))
 
 if __name__ == '__main__':
     QuestionParser()
