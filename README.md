@@ -14,9 +14,9 @@ Also supports using hints with the <code>--hints</code> command line flag:
 <code>python3 QuestionGenerator.py --hints</code>  
 
 that outputs  
-<code>Show that if a sequence of random variables converges in probability, then the sequence converges in distribution
+<code>Show that if a sequence of random variables converges in probability, then the sequence converges in distribution</code>  
 
-CLUES:
+<code> CLUES:  
 1 : Use the definition for the CDF for x + epsilon and x - epsilon
 2 : Split the probability space to |X_n - X| > and <= epsilon</code>  
 
