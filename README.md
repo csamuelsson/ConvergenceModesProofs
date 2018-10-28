@@ -17,8 +17,8 @@ that outputs
 <code>Show that if a sequence of random variables converges in probability, then the sequence converges in distribution</code>  
 
 <code> CLUES: </code>  
-<code>1 : Use the definition for the CDF for x + epsilon and x - epsilon
-2 : Split the probability space to |X_n - X| > and <= epsilon</code>  
+<code>1 : Use the definition for the CDF for x + epsilon and x - epsilon</code>  
+<code>2 : Split the probability space to |X_n - X| > and <= epsilon</code>  
 
 **TODO:**  
 Fix hints for a.s. => Prob.
