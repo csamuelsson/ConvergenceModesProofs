@@ -9,7 +9,9 @@ Used for a course in measure theoretic probability theory.
 <code>python3 QuestionGenerator.py</code>
 
 **Example output:**  
-<code>Show that if a sequence of random variables converges almost surely, then the sequence converges in probability</code>
+<code>Show that if a sequence of random variables converges almost surely, then the sequence converges in probability</code>  
+  
+<code>almost surely => in probability</code>
 
 Also supports using hints with the <code>--hints</code> command line flag:    
 <code>python3 QuestionGenerator.py --hints</code>  
