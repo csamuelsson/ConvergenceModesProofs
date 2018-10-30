@@ -13,6 +13,8 @@ Used for a course in measure theoretic probability theory.
   
 <code>almost surely => in probability</code>
 
+
+**Hints:**
 Also supports using hints with the <code>--hints</code> command line flag:    
 <code>python3 QuestionGenerator.py --hints</code>  
 
