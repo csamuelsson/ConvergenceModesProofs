@@ -4,7 +4,8 @@ Just a simple helper program for me to study the proofs of the relationships bet
 Used for a course in measure theoretic probability theory.
 
 **To run:**  
-<code>git clone https://github.com/csamuelsson/ConvergenceModesProofs</code>  
+<code>git clone https://github.com/csamuelsson/ConvergenceModesProofs</code> 
+<code>cd ConvergenceModesProofs</code>   
 <code>python3 QuestionGenerator.py</code>
 
 **Example output:**  
@@ -16,9 +17,10 @@ Also supports using hints with the <code>--hints</code> command line flag:
 that outputs  
 <code>Show that if a sequence of random variables converges in probability, then the sequence converges in distribution</code>  
 
-<code> CLUES: </code>  
-<code>1 : Use the definition for the CDF for x + epsilon and x - epsilon</code>  
-<code>2 : Split the probability space to |X_n - X| > and <= epsilon</code>  
-
-**TODO:**  
-Fix hints for a.s. => Prob.
+<code>almost surely => in probability</code>  
+  
+<code>HINT(S):</code>  
+<code>1 :  Start with the delta-epsilon definition of convergence in probability</code>  
+<code>2 :  Find upper limit with the union set for big n's (indexed by k)</code>  
+<code>3 :  Let k go to infinity</code>  
+<code>4 :  Use almost sure convergence</code>  

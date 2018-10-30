@@ -40,8 +40,9 @@ rmean = ConvergenceMode("in R mean", prob)
 rmean.setClues(["Use Markov's inequality to rewrite the definition of the probability convergence"])
 prob.setClues(["Use the definition for the CDF for x + epsilon and x - epsilon",
     "Split the probability space to |X_n - X| > and <= epsilon"])
-# TODO: Write proper hints for every proof:
-almostSure.setClues(["TBD", "TBD", "TBD", "TBD"])
+almostSure.setClues(["Start with the delta-epsilon definition of convergence in probability",
+	"Find upper limit with the union set for big n's (indexed by k)", "Let k go to infinity",
+	"Use almost sure convergence"])
 
 convergenceArray = [distribution, prob, almostSure, rmean]
 
@@ -51,9 +52,10 @@ def QuestionParser(parentConvergence):
     print("Show that if a sequence of random variables converges %s, then the sequence converges %s" 
         % (parentConvergence.getCleanText(), implicationConvergence))
 
+    print("\n%s => %s" % (parentConvergence.getCleanText(), implicationConvergence))
     if args.hints:
         clues = parentConvergence.getClues()
-        print("\n\nCLUES:")
+        print("\nHINT(S):")
         i = 1
         for clue in clues:
             print(i, ': ', clue)
