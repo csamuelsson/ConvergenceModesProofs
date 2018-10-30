@@ -41,7 +41,7 @@ rmean.setClues(["Use Markov's inequality to rewrite the definition of the probab
 prob.setClues(["Use the definition for the CDF for x + epsilon and x - epsilon",
     "Split the probability space to |X_n - X| > and <= epsilon"])
 almostSure.setClues(["Start with the delta-epsilon definition of convergence in probability",
-	"Find upper limit with the union set for big n's (indexed by k)", "Let k go to infinity",
+	"Find upper limit with the union set for big n's (indexed by k)", "Let k go to infinity - what's this event?",
 	"Use almost sure convergence"])
 
 convergenceArray = [distribution, prob, almostSure, rmean]

@@ -22,5 +22,5 @@ that outputs
 <code>HINT(S):</code>  
 <code>1 :  Start with the delta-epsilon definition of convergence in probability</code>  
 <code>2 :  Find upper limit with the union set for big n's (indexed by k)</code>  
-<code>3 :  Let k go to infinity</code>  
+<code>3 :  Let k go to infinity - what's this event?</code>  
 <code>4 :  Use almost sure convergence</code>  
